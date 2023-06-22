@@ -437,7 +437,6 @@
 }
 
 .footer__list {
-  /* The code below removes the default browser styles for lists */
   list-style-type: none;
   margin-bottom: 0;
   padding-left: 0;
@@ -448,11 +447,15 @@
   margin-bottom: 16px;
 }
 
+.foot__list-item:last-of-type{
+  margin-bottom: 0;
+}
+
 .footer__column-heading {
-  margin-top: 0;
-  margin-bottom: 20px;
+  margin: 0 0 20px;
   font-size: 16px;
   margin-left: auto;
+
 }
 
 .footer__column-link {
@@ -460,6 +463,7 @@
   font-size: 16px;
   line-height: 20px;
   text-decoration: none;
+  align-items: center;
 }
 
 .footer__column-link:hover {
@@ -467,10 +471,11 @@
 }
 
 .footer__social_icon {
-  max-width: 16px;
-  margin: 0;
+  width: 16px;
+  height: 16px;
+  margin: right: 10px
 }
 
 .footer__copyright {
-  margin: 0 auto;
+  margin: 108px 0 0;
 }
